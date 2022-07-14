@@ -24,4 +24,6 @@ __pip__ es el __npm__ de javascript
 
 #### Mostrando las dependencias instaladas
 
-`pip freeze > requierements.txt` Copia las dependecias instaladas en un archivo .txt para que los demas devs puedan instalarlas.
+`pip freeze > requirements.txt` Copia las dependecias instaladas en un archivo .txt para que los demas devs puedan instalarlas.
+
+`pip install -r requirements.txt` Instala todas las dependencias que sean necesarias para el proyecto.
