@@ -15,6 +15,12 @@ __Desactivar el entorno virtual:__
 Estando en la carpeta del entorno virtual: 
 `deactivate` 
 
+__Ignorar la el ambiente virtual en .gitignore__
+
+En el git ignore se debe agregar:
+
+`venv/` que seria en __mejor nombre a ponerle al entorno virtual__
+o `nombre_del_entorno_virtual/`
 
 ## Usando pip en el entorno virtual 
 
