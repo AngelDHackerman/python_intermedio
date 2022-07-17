@@ -1,6 +1,9 @@
+from functools import reduce # ? Asi se trae el metodo reduce
+
 def run ():
   
-  # * Filter, para devolver solo los numeros impares.
+  # * Filter 
+  # devolver solo los numeros impares.
 
   my_list = [1, 4, 5, 6, 9, 13, 19, 21]
 
@@ -24,6 +27,25 @@ def run ():
 
   alCuadrado = list(map(lambda x : x ** 2, my_list2)) # ? map, usa 2 parametros, 1. una funcion anonima "Lambada", 2 el iterable para trabajar. 
   print(alCuadrado)
+
+
+
+  # * Reduce. 
+  # multiplicar todos valores de la lista y crear solo 1 valor.
+
+  my_list3 = [2, 2, 2, 2, 2, 2, 2]
+
+  x = 1
+  for i in my_list3:
+    x = x * i
+
+  print(x)
+
+
+  all_multiplied = reduce(lambda a, b: a * b, my_list3) # ? reduce tiene 3 parametros: 1. el primer y el segundo valor, 2. la operacion a ejecutar, 3. el iterable a trabajar.
+  print(all_multiplied)
+
+
 
 
 if __name__ == '__main__':
