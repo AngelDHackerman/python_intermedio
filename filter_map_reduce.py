@@ -1,5 +1,7 @@
 from functools import reduce # ? Asi se trae el metodo reduce
 
+      # todo: para usar las funciones de filter & map, tenemos que envolver todo en la funcion "list"
+
 def run ():
   
   # * Filter 
