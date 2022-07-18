@@ -9,8 +9,9 @@ def divisors(num):
   return divisors
 
 def run():
-  num = int(input('Ingresa un numero: '))
-  print(divisors(num))
+  num = input('Ingresa un numero: ')
+  assert num.isnumeric(), "Debes ingresar un numero"  # ? .isnumeric() Nos dice si el input recibe un numero en forma de string algo como  '5' o '10'
+  print(divisors(int(num)))   # ? Debido a .isnumeric() hasta aqui casteamos el string a un numero.
   print('Termino mi programa')
 
 
