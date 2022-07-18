@@ -7,9 +7,12 @@ def read():
   print(numbers)
 
 
+def wrie():
+  pass
+
 
 def run ():
-  pass
+  read()
 
 
 
