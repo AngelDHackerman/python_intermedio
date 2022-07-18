@@ -34,4 +34,4 @@ __pip__ es el __npm__ de javascript
 
 `pip install -r requirements.txt` Instala todas las dependencias que sean necesarias para el proyecto.
 
-Haciendo pruebas en local
+Terminado el curso
