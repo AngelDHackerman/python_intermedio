@@ -16,7 +16,7 @@ def write():
 
 
 def run ():
-  # read()
+  read()
   write()
 
 
